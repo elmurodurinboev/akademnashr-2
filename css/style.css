@@ -39,7 +39,7 @@
 .site-header-list {
   display: flex;
   gap: 32px;
-}
+} 
 
 .sitenav-link {
   color: #000;
@@ -63,6 +63,9 @@
 
 .hero-section {
   background-color: #252420;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .hero-content {
