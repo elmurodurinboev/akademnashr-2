@@ -1,4 +1,4 @@
-@font-face {
+ @font-face {
   font-family: "Roboto";
   src: url("./../fonts/Roboto-Regular.ttf");
   font-weight: 400;
@@ -21,6 +21,7 @@
 
 .list-none {
   list-style: none;
+  padding: 0;
 }
 
 .site-logo {
@@ -40,7 +41,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-
+  border-top: 5px solid #FF7500;
+  padding: 16px 0;
 }
 
 
@@ -55,6 +57,10 @@
   gap: 32px;
 } 
 
+.site-header-list .active {
+  border-bottom: 3px solid #FF7500;
+}
+
 .sitenav-link {
   color: #000;
   font-weight: 500;
@@ -64,6 +70,7 @@
   text-decoration: none;
   text-transform: uppercase;
   transition: all 0.5s ease;
+  padding-bottom: 4px;
 }
 
 .sitenav-link:hover {
@@ -83,6 +90,8 @@
   color: #fff;
   text-decoration: none;
   transition: opacity 0.5s ease;
+  padding: 12px 24px;
+  border-radius: 4px;
 }
 
 
@@ -99,6 +108,11 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 80px 0;  
+}
+
+.hero-section img {
+  border-radius: 8px;
 }
 
 .hero-content {
@@ -110,6 +124,7 @@
   background-color: #FF7500;
   width: 80px;
   height: 3px;
+  border: 0;
 }
 
 .hero-title {
@@ -124,6 +139,10 @@
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0.5px;
+}
+
+.feature-section {
+  padding: 210px 0;
 }
 
 .feature-title {
@@ -164,6 +183,12 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  border-radius: 12px;
+  padding: 64px 0;
+}
+
+.sale img {
+  border-radius: 12px;
 }
 
 .sale-content {
@@ -186,6 +211,7 @@
 
 .site-footer {
   background-color: #F8F8F8;
+  padding: 56px 0;
 }
 
 .footer-top {
